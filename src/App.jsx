@@ -10,7 +10,7 @@ const App = () => {
       <div className='wrapper'>
         <header>
           <img src='./hero.png' />
-          <h1> <span className='text-gradient'>Finding Movies You Love</span></h1>
+          <h1> <span className='text-white'>Finding Movies You Love</span></h1>
         </header>
         <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         <h1 className="text-white">{searchTerm}</h1>
