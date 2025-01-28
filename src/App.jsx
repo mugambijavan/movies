@@ -1,13 +1,8 @@
 
-import './App.css'
-
-function App() {
-
+const App = () => {
   return (
     <main>
-      <div 
-        className="pattern"
-      />
+      <div className="pattern" />
       <div className='wrapper'>
         <header>
           <img src='./hero.png' />
